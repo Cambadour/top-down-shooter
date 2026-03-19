@@ -2,6 +2,20 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Git Workflow
+
+After completing any meaningful unit of work, commit and push to GitHub immediately so progress is never lost.
+
+```bash
+git add <files>
+git commit -m "short description of what changed and why"
+git push
+```
+
+- Stage specific files by name, not `git add -A`
+- Commit messages should be concise and descriptive (what changed, not just "update game.js")
+- Push after every commit — the remote at `https://github.com/Cambadour/top-down-shooter` is the source of truth
+
 ## Running the Game
 
 Open `index.html` directly in any modern browser — no build step, no server required.
